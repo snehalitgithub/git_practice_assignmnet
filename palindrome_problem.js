@@ -1,11 +1,16 @@
-//check whether number is palindrome or not
+// Q.2  Check whether a string is palindrome or not.
 
-var ispalindrome = (num);
+let str="naman"
+let rev_str="";
+    
+    for(let i=str.length-1;i>=0;i--){
+        
+        rev_str+=str[i];
+    }
+    if(rev_str==str){
+        console.log("Yes");
+    }else{
+        console.log("No");
+    }
 
-for(var a = 5;a>1;a++){
-    for(var b = 1; b<a;b++){
-        console.log("palindrome")
-    }else 
-    console.log("notpalindrome")
-}
 
